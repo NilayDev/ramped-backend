@@ -28,15 +28,14 @@ This project demonstrates how to create a backend API using FastAPI and Google F
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/NilayDev/ramped-backend.git
     ```
 
 2. Create and activate a virtual environment:
 
     ```bash
     python -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
+    ## On Linux use source env/bin/activate  # On Windows use `env\Scripts\activate`
     ```
 
 3. Install the dependencies:
@@ -64,7 +63,7 @@ This project demonstrates how to create a backend API using FastAPI and Google F
 6. For creating example job deatils table in database run job details import data file
         
         ```bash
-        python job_details_import_data.python
+        python job_details_import_data.py
         ```
 
 ### Usage
